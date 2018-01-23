@@ -18,11 +18,11 @@
 	}
 </script>
 <style>
-p {
+.about p {
 	white-space: pre-wrap;
 }
 
-.contracted {
+.about p.contracted {
   	height: 250px;
   	overflow: hidden;
 }

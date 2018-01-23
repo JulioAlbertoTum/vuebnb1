@@ -57,6 +57,8 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  top: calc(50% - 40px);
+  left: 0;
 }
 	
 </style>

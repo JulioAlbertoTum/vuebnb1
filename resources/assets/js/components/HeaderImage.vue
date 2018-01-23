@@ -12,7 +12,7 @@
 				return {
 					'background-image': `url(${this.imageUrl})`	
 				};
-			}
+			},
 		},
 		props: ['image-url']
 	}

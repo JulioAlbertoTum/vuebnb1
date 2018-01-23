@@ -54,6 +54,14 @@
   display: block;
 }
 
+.modal-content {
+  width: 100%;
+  max-width: 105vh;
+  padding-top: 12vh;
+  margin: 0 auto;
+  position: relative;
+}
+
 body.modal-open {
   overflow: hidden;
   position: fixed;
@@ -77,12 +85,6 @@ body.modal-open {
   line-height: 1;
 }
 
-.modal-content {
-  width: 100%;
-  max-width: 105vh;
-  padding-top: 12vh;
-  margin: 0 auto;
-  position: relative;
-}
+
 
 </style>
