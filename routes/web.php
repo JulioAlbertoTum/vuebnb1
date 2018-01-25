@@ -10,8 +10,9 @@ use App\Listing;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes();
 Route::get('/', 'ListingController@get_home_web');
 Route::get('/listing/{listing}', 'ListingController@get_listing_web');
-Route::get('/saved', 'ListingController@get_home_web');
+Route::get('/saved', 'ListingController@get_home_web')->middleware('auth');
+
 
